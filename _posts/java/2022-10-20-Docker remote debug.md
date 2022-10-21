@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Docker remote debug"
+date:   2022-10-20 20:29:12 +0300
+categories: java
+---
+
 # 				Docker remote debug 	
 
 #### Способ первый
