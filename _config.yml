@@ -45,6 +45,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      image: "/assets/img/programmer.jpg"
   - scope:
       path: ""
     values:

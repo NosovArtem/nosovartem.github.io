@@ -4,6 +4,9 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
+    {%- if page.image -%}
+      <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post">
+    {%- endif -%}
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
 
     {%- if page.categories -%}
@@ -19,8 +22,6 @@ layout: default
       {% if author %}
         <a href="{{ site.baseurl }}{{ author.url }}">{{ author.name }}</a>
       {% endif %}
-
-
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">

@@ -23,4 +23,6 @@ jekyll build --drafts
 
 1. Было бы круто добавить поиск на сайт.
 2. [Category pages](https://www.amitmerchant.com/how-to-categorize-your-posts-in-jekyll/?__cf_chl_tk=k1jewWtV_eQk6xhPkseZ5TJTXDOVYcF3axRsmHjS3VE-1668194254-0-gaNycGzNCOU)
+3. [Adminka](https://www.youtube.com/watch?v=CK12Q9OhoFw)
+4. [Image](https://www.youtube.com/watch?v=6oKO-7gsM4s)
 
