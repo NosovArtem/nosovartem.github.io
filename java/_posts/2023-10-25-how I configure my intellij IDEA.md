@@ -6,3 +6,10 @@ author: nosov-ao
 
 ### IDEA
 --spring.profiles.active=ide
+
+### Plugins
+- JavaStreamDebugger
+- UML Generator
+- Rainbow Brackets
+- Rainbow CSV
+- 
