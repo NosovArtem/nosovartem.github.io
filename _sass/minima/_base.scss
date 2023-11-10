@@ -170,27 +170,50 @@ pre {
 }
 
 
+// .page-content {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: flex-start;
 
-/**
- * Wrapper
- */
-.wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
-  @extend %clearfix;
+//   .sidebar {
+//     flex: 0.2;
+//     padding: $spacing-unit;
+//     background-color: #f0f0f0;
+//   }
 
-  @include media-query($on-laptop) {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-    padding-right: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-  }
+  .wrapper {
+//     flex: 0.6;
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+      max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+      max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+      padding-right: $spacing-unit / 2;
+      padding-left: $spacing-unit / 2;
+    }
+//   }
+
+//   .ad-block {
+//     flex: 0.2;
+//     padding: $spacing-unit;
+//     background-color: #f0f0f0;
+//   }
+//
+//   .ad-block img {
+//     max-width: 100%;
+//     height: auto;
+//   }
+//
+//   p {
+//     margin-top: $spacing-unit;
+//   }
 }
-
 
 
 /**
