@@ -6,6 +6,7 @@ author: nosov-ao
 
 ### IDEA
 --spring.profiles.active=ide
+-Dspring.profiles.active=ide
 
 ### Plugins
 - JavaStreamDebugger
